@@ -15,3 +15,5 @@ http://physik.uibk.ac.at/hephy/praktikum/fortran_manual.pdf
 Fortran Open sorce project - Web MCV
 https://awesomeopensource.com/project/mapmeld/fortran-machine
 
+Fortran95 Manual (Fith revision) - Tanja van Mourik
+http://www-eio.upc.edu/lceio/manuals/Fortran95-manual.pdf
