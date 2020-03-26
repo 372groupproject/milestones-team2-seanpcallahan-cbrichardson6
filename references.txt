@@ -8,3 +8,10 @@ https://www.fortrantutorial.com/
 
 Introduction to Fortran by Declan Valters
 https://ourcodingclub.github.io/tutorials/fortran-intro/
+
+Fortran Reference File
+http://physik.uibk.ac.at/hephy/praktikum/fortran_manual.pdf
+
+Fortran Open sorce project - Web MCV
+https://awesomeopensource.com/project/mapmeld/fortran-machine
+
