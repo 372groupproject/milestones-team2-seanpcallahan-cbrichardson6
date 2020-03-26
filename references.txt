@@ -1,0 +1,10 @@
+Wikipedia:
+https://en.wikipedia.org/wiki/Fortran
+
+John Backus. "The history of FORTRAN I, II and III" (PDF). Softwarepreservation.org. Retrieved 19 November 2014.
+http://www.softwarepreservation.org/projects/FORTRAN/paper/p25-backus.pdf
+
+https://www.fortrantutorial.com/
+
+Introduction to Fortran by Declan Valters
+https://ourcodingclub.github.io/tutorials/fortran-intro/
