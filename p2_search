@@ -1,0 +1,32 @@
+PROGRAM sequentialsearch
+
+    ! declaration
+    CHARACTER, dimension(10) :: word
+    CHARACTER :: tofind
+    INTEGER :: found
+
+    ! creating an example array to search in
+    word = (/'a','b','c','d','e','f','g','h','i','j'/)
+  
+    ! setting the found flag
+    found = 0
+    
+    ! setting the value we want to search for
+    tofind = 'h'
+    
+    ! Itterating over the array
+    DO i=1, SIZE(word)
+        IF (word(i) == tofind) THEN
+            found = 1
+        END IF
+    END DO
+  
+    ! printing the found status using a case
+    SELECT CASE (found)
+    CASE (0)
+        Print*, "Sorry! thing was not found." 
+    CASE (1)
+        Print*, "Congrats! it was found." 
+    END SELECT
+  
+END PROGRAM sequentialsearch
