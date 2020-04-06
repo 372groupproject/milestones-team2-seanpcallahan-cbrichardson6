@@ -1,4 +1,4 @@
-PROGRAM switchcheck
+PROGRAM casecheck
   INTEGER :: x = 0
   SELECT CASE (x)
     CASE (0)
@@ -8,4 +8,4 @@ PROGRAM switchcheck
     CASE (1:)
         print*, "this will not print" 
     END SELECT
-END PROGRAM switchcheck
+END PROGRAM casecheck
