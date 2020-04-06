@@ -1,6 +1,6 @@
 PROGRAM doloopcheck
   INTEGER i
-  do i = 0, 10, 1
-     print *, "i = ", i           
-  end do
+  DO i = 0, 10, 1
+     Print *, "i = ", i           
+  END DO
 END PROGRAM doloopcheck
