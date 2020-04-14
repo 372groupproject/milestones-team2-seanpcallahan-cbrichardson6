@@ -1,0 +1,16 @@
+program char
+
+  character :: single
+  character(len = 15) :: string
+  
+  ! declairing a single char
+  single = 'H'
+  ! declairing a string
+  string = "ello"
+  
+  print *, single
+  print *, string
+  ! adding char and strings together
+  print *, single // string
+ 
+ end program char
