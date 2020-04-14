@@ -1,4 +1,4 @@
-program real   
+program realNum   
 implicit none  
 
     real :: a,b 
@@ -17,4 +17,4 @@ implicit none
     print *, a/y
     print *, y/b
    
-end program real
+end program realNum
