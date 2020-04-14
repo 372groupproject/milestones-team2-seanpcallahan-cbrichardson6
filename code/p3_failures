@@ -1,0 +1,15 @@
+program failing
+
+    integer :: a
+    character(len = 4) :: string
+    
+    a = 3
+    string = "hello"
+    
+    ! compilation error due to a type check
+    Print *, a/string
+    
+    ! runtime error due to a divide by zero error
+    Print *, a/0
+
+end program failing
