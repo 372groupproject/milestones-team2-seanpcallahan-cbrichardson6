@@ -1,0 +1,20 @@
+program real   
+implicit none  
+
+    real :: a,b 
+    integer :: x,y
+   
+    a = 1.0
+    b = 2.0
+    x = 3
+    y = 4
+
+    ! real division will yield a real
+    print *, a/b
+    ! int division will yield an int
+    print *, x/y
+    ! real int division will yield a real
+    print *, a/y
+    print *, y/b
+   
+end program real
