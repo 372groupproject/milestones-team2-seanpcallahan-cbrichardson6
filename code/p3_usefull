@@ -1,0 +1,33 @@
+program usefull
+
+! this program will calculate GPA average for a very small class
+
+    ! struct declaration
+    type Student
+      character(len = 50) :: name
+      real :: gpa
+    end type Student
+
+    ! var declaration
+    type(Student) :: jon
+    type(Student) :: sally
+    type(Student) :: richard
+    real :: sum
+  
+    ! var initialization
+    jon%name = "Jon Doe"
+    jon%gpa = 3.2
+    sally%name = "Sally Smith"
+    sally%gpa = 2.8
+    richard%name = "Richard Salamander"
+    richard%gpa = 3.9
+    sum = 0
+    
+    ! calculating the sum (would use arrays but it is acting funky so more research needed)
+    sum = jon%gpa+sally%gpa+richard%gpa
+    
+    ! trim removes the trailing whitespace in the overalloted character array
+    print *, "For "//trim(jon%name)//", "//trim(sally%name)//", "//trim(richard%name)
+    print *, "GPA average is ", sum/3
+
+ end program usefull
