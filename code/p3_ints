@@ -1,0 +1,13 @@
+program intTest
+implicit none
+  ! ints are implecitly 4 bytes in size but this can be changed with the kind keyword
+  ! i.e see b
+  integer :: a
+  integer(kind = 2):: b
+  a = 1
+  b = 2
+  print *, a+b
+  ! huge will print the largest value a var can hold
+  print *, huge(b)
+  
+end program intTest
