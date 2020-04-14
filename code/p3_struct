@@ -1,0 +1,24 @@
+program deriveDataType
+
+   !type declaration
+   type Student
+      character(len = 50) :: name
+      integer :: netID
+      real :: gpa
+   end type Student
+   
+   !declaring type variables
+   type(Student) :: jon 
+   
+   !accessing the components of the structure
+   jon%name = "Jon Doe"
+   jon%netID = 5555555
+   jon%gpa = 3.2
+  
+   !display student info
+   
+   Print *, jon%name
+   Print *, jon%netID
+   Print *, jon%gpa
+
+end program deriveDataType
