@@ -1,0 +1,11 @@
+program complexNum   
+implicit none  
+
+    ! first term in the complex expression
+    integer :: i = 3
+    ! imaginary term
+    real :: x = 2.22
+    ! this is equivalent to 3 + 2.22i
+    print *, cmplx(i, x)
+   
+end program complexNum
