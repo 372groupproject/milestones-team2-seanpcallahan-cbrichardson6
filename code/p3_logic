@@ -1,0 +1,8 @@
+program logicTest   
+implicit none  
+
+    logical :: b
+    b = 1>2
+    print *, b
+   
+end program logicTest
