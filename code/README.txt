@@ -1,4 +1,4 @@
-hello_world.f95
+*.f95
 
 for Unix:
   - nagigate to the directory with the file
