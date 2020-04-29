@@ -1,0 +1,7 @@
+! in fortran you can use go to with lables to code like the wild wild west
+program skip
+    go to 1
+    ! this statement will never print
+    Print *, "NOOOOO YOU CANT JUST USE GOTO IN 2020!!!!!!"
+    1 continue
+end program skip
