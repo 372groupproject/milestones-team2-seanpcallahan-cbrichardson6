@@ -1,0 +1,6 @@
+program CASES
+    ! fortran is not case sensitive which really helps with potential
+    ! typos but reduces the variable name pool
+    ! strings are case sensitive however as the print shows
+   Print *, "AAaaBBbbCCcc"
+end PROGRAM cases
